@@ -41,4 +41,5 @@ jobs:
           context: .
           file: ./Dockerfile
           platforms: linux/amd64
+          push: true
           tags: rolak/python-helloworld:latest
